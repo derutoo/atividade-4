@@ -1,0 +1,16 @@
+public class operacoes3 {
+    public static void main(String[] args) {
+
+        int numero1 = 15;
+        int numero2 = 20;
+        int numero3 = 2;
+
+        int soma = numero1 + numero2 + numero3;
+        int subtracao = numero1 - numero2 - numero3;
+        int multiplicacao = numero1 * numero2 * numero3;
+
+        System.out.println("A soma de " + numero1 + ", " + numero2 + " e " + numero3 + " é: " + soma);
+        System.out.println("A subtração de " + numero1 + ", " + numero2 + " por " + numero3 + " é: " + subtracao);
+        System.out.println("A multiplicação de " + numero1 + ", " + numero2 + " e " + numero3 + " é: " + multiplicacao);
+    }
+}
